@@ -1,0 +1,23 @@
+@keyframes pulse {
+    /* from {
+        background-color: brown;
+        color: rgb(36, 34, 31);
+    } */
+    to {
+        background-color: rgb(26, 79, 179);
+        color: rgb(86, 179, 86);
+    }
+}
+@keyframes colors {
+    0% {color: yellow;}
+    10% {color: rgb(60, 63, 92);}
+    70% {color: rgb(255, 136, 0);}
+    85% {color: rgb(110, 67, 70);}
+}
+h1 {
+    color: rgb(78, 40, 51);
+    animation: pulse 3s infinite,pulse 5s infinite;
+}
+h2 {
+    animation:colors 3s 2s 2 alternate linear forwards;
+}
